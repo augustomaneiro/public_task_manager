@@ -14,7 +14,7 @@ const sendWelcomeMail = (email, name) =>{
 const sendGoodbyeMail = (email, name) => {
     sgMail.send({
         to: email,
-        from: "maneiro.auusto@gmail.com",
+        from: "maneiro.augusto@gmail.com",
         subject: "Goodbye",
         text: `We are sorry that you are leaving us, ${name}.`
     });
